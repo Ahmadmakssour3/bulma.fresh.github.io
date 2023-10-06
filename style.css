@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto Flex,sans-serif!important;
+}
+.button {
+    cursor: pointer;
+    border-radius: .65rem;
+    transition: all .5s;
+    font-size: 14px;
+}
+.s1 , .navbar ,.s3{
+    background-color: #fbfbfb;
+}
+.orange-hr {
+    background-color: #f39200;
+    margin: 5px auto 0;
+}
+.s2 {
+    margin-bottom: 10%;
+}
