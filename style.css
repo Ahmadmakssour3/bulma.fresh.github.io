@@ -4,10 +4,17 @@ body {
 .button {
     cursor: pointer;
     border-radius: .65rem;
-    transition: all .5s;
+    transition: all .5s;    
     font-size: 14px;
 }
-.s1 , .navbar ,.s3{
+.navbar  {
+    transition: 0.5s all;
+    box-shadow: 0 0 0.5px 0.5px rgba(193, 187, 187, 0.4);
+    background-color: rgb(255, 255, 254);
+    border-radius: 3px;
+    
+}
+.s1 ,.s3{
     background-color: #fbfbfb;
 }
 .orange-hr {
@@ -17,19 +24,22 @@ body {
 .s2 {
     margin-bottom: 10%;
 }
+.s4 , .s6{
+    margin: 8% 0 6% ;
+}
 .feature-icon  h4{
 font-size: 16px;    
 }
 .feature-icon  p{
     font-size: 12px;
-    opacity: 70%;
-    color: rgb(124, 120, 120) !important;
+    opacity: 60%;
+    color: rgb(61, 58, 58) !important;
+    transition: 0.3s;
  }
  .is-icon-reveal svg{
-    border: 1px solid rgb(98, 93, 93);
+    border: 1px solid rgb(36, 35, 35);
    border-radius: 50%;
     padding: 10px;
-    box-shadow: 0 0 2px 1px #6c6b6a;
     transition: 0.5s;
     width: 3.5rem;
     height: 3.5rem;
@@ -39,11 +49,12 @@ font-size: 16px;
 opacity: 100%;
 }
 .feature-icon:hover svg {
-    margin-bottom: 2.5px;
+  transform: translateY(-8px);
     color: #f39200;
+    cursor: pointer;
+    box-shadow: 0 0 1.5px 2px rgba(0, 0, 0, .2);
     padding: 8px;
-    height: 3.3rem;
-  
+    
 }
 .feature-icon {
     margin: 15px 0;
@@ -69,7 +80,62 @@ border-radius: 50%;
 
 
 }
+.s5 {
+    padding-top: 100px;
+}
+.s6 {
+    padding-top: 150px;
+}
 blockquote {
     font-size: 20px;
     padding-top: 50px;
+}
+.pr-btn {
+    
+    width: 95%;
+    height: 50px;
+    margin: 10px auto;
+}
+.pricing-card {
+    padding: 10px 10px 16px;
+    border-radius: 8px;
+}
+.price {
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer {
+    background-color: #444f60;
+    /* height: 50vh; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.is-white {
+    color: white;
+}
+.fcolumn p {
+color: #697589;
+transition: 0.3s ;
+padding-bottom: 13px;
+}
+.fcolumn p:hover {
+    color: white;
+}
+.icon-div {
+    display: flex;
+    gap: 8px;
+    margin: 10px auto 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-div img {
+    width: 32px;
+    aspect-ratio: 1;
+    transition: 0.3s;
+}
+.icon-div img:hover {
+    fill: #f39200;
+    color: #f39200;
+    -webkit-text-fill-color: #f39200;
+    width: 35px;
 }

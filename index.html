@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
   <meta charset="utf-8">
@@ -11,47 +11,45 @@
 </head>
 
 <body>
-  <section class="section s1">
-    <div class="container">
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://fresh.cssninja.io/img/logo/fresh-alt.svg" width="112" height="28">
-          </a>
+  <nav class="navbar is-fixed-top p-2" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img class="logoimg" src="https://fresh.cssninja.io/img/logo/fresh-alt.svg" width="112" height="28">
+      </a>
 
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-            data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item">
-              Features
-            </a>
-
-            <a class="navbar-item">
-              Pricing
-            </a>
-
-            <a class="navbar-item  is-hoverable">
-              Log in
-            </a>
-          </div>
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button " style="background-color: #f39200; border:#f39200; color:#fff;">
-                <strong>Sign up</strong>
-              </a>
-            </div>
-          </div>
-        </div>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-    </nav>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#features">
+          Features
+        </a>
 
+        <a class="navbar-item" href="#pr">
+          Pricing
+        </a>
+
+        <a class="navbar-item  is-hoverable" href="#login">
+          Log in
+        </a>
+      </div>
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button " href="#signup" style="background-color: #f39200; border:#f39200; color:#fff;">
+            <strong>Sign up</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="section s1" id="login">
+    <div class="container">
+
+    </div>
     <div class="hero">
       <div class="hero-body">
         <div class="container">
@@ -168,7 +166,7 @@
       </div>
     </div>
   </section>
-  <section class=" section s3">
+  <section class=" section s3 " id="features">
     <div class="container">
       <div class="title-wrapper has-text-centered">
         <h2 class="title is-2">Awesome Features</h2>
@@ -209,8 +207,7 @@
       </div>
     </div>
   </section>
-
-  <section class="section">
+  <section class="section s4">
     <div class="container">
       <div class="title-wrapper has-text-centered">
         <h2 class="title is-2">Wait, there's more</h2>
@@ -408,23 +405,20 @@
     </div>
 
   </section>
-
-
-
-  <section class="section has-background-image" data-background="https://source.unsplash.com/g30P1zcOzXo/1600x900"
+  <section class="section s5 has-background-image" data-background="https://source.unsplash.com/g30P1zcOzXo/1600x900"
     data-color="#4FC1EA" data-color-opacity=".6"
     style="background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://source.unsplash.com/g30P1zcOzXo/1600x900&quot;);">
     <div class="overlay"></div>
     <div class="container">
       <div class="title-wrapper has-text-centered">
-        <h2 class="title is-2   is-spaced">Our clients love us</h2>
-        <h3 class="subtitle is-5  is-muted">Look at what they say about us</h3>
+        <h2 class="title is-2   is-white is-spaced">Our clients love us</h2>
+        <h3 class="subtitle is-5 is-white is-muted">Look at what they say about us</h3>
         <br>
       </div>
       <div class="columns is-centered is-vcentered ">
         <div class="column is-3">
           <div class="card ">
-          
+
             <div class="card contant">
               <figure class="testimonial">
                 <blockquote>
@@ -435,7 +429,7 @@
                 </blockquote>
                 <div class="author">&nbsp;<img src="https://fresh.cssninja.io/img/illustrations/faces/1.png" alt="">
                   <div>
-                    <h5 class="is-4">&nbsp;Irma Walters</h5><span class="suptitle is-muted" >&nbsp;Accountant</span>
+                    <h5 class="is-4">&nbsp;Irma Walters</h5><span class="suptitle is-muted">&nbsp;Accountant</span>
                   </div>
                 </div>
               </figure>
@@ -444,11 +438,11 @@
         </div>
         <div class="column is-3">
           <div class="card p-1">
-         
+
             <div class="card contant">
               <figure class="testimonial">
                 <blockquote>
-                  <div class="quite"> &nbsp;  ,,</div>
+                  <div class="quite"> &nbsp; ,,</div>
                   Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu,
                   hinc minim appetere te usu, ea case duis scribentur has. Duo te
                   consequat elaboraret, has quando suavitate at.
@@ -464,11 +458,11 @@
         </div>
         <div class="column is-3">
           <div class="card p-1">
-          
+
             <div class="card contant">
               <figure class="testimonial">
                 <blockquote>
-                  <div class="quite"> &nbsp;  ,,</div>
+                  <div class="quite"> &nbsp; ,,</div>
                   Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu,
                   hinc minim appetere te usu, ea case duis scribentur has. Duo te
                   consequat elaboraret, has quando suavitate at.
@@ -485,12 +479,177 @@
       </div>
     </div>
     </div>
-   
+
+  </section>
+  <section class="section s6 " id="pr">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2">Get Started</h2>
+        <h3 class="subtitle is-5 is-muted">Choose one of our plans</h3>
+        <hr width="80" class="orange-hr">
+        <br>
+      </div>
+      <div class="columns is-centered is-vcentered">
+
+        <div class="column is-3  ">
+          <div class="card  pricing-card  has-text-centered">
+            <h3 class="title is-4 p-0">Starter</h3><img width="150" height="150"
+              src="https://fresh.cssninja.io/img/illustrations/pricing/1.svg" alt="">
+            <div class="price">0$</div>
+            <p class="p-1"></p>Sign up, get some awesome features and get started now</p><a
+              class="button pr-btn is-bold">Get
+              Started</a>
+          </div>
+        </div>
+        <div class="column is-3">
+          <div class="card  pricing-card  has-text-centered">
+            <h3 class="title is-4 p-1">Pro</h3><img width="150" height="150"
+              src="https://fresh.cssninja.io/img/illustrations/pricing/2.svg" alt="">
+            <div class="price">15$</div>
+            <p class="p-0"></p>Sign up, get some awesome features and get started now</p><a
+              class="button is-primary  pr-btn is-bold">Get
+              Started</a>
+          </div>
+        </div>
+        <div class="column is-3">
+          <div class="card   pricing-card has-text-centered">
+            <h3 class="title is-4 p-1">Business</h3><img width="150" height="150"
+              src="https://fresh.cssninja.io/img/illustrations/pricing/3.svg" alt="">
+            <div class="price">30$</div>
+            <p class="p-0 ">Sign up, get some awesome features and get started now</p><a
+              class="button  pr-btn is-bold">Get
+              Started</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
+  <section class="section section-light-grey  s7" id="signup">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 is-spaced">Drop us a line or two</h2>
+        <h3 class="subtitle is-5 is-muted">We'd love to hear from You</h3>
+
+        <hr width="80" class="orange-hr">
+        <br><br>
+      </div>
+      <div class="content-wrapper ">
+        <form>
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-6">
+              <div class="columns  is-centered is-vcentered is-multiline">
+                <div class="column is-6"><input class="input is-medium" type="text" placeholder="First Name"></div>
+                <div class="column is-6"><input class="input is-medium" type="text" placeholder="Last Name"></div>
+                <div class="column is-6"><input class="input is-medium" type="text" placeholder="Email"></div>
+                <div class="column is-6"><input class="input is-medium" type="email" placeholder="Company"></div>
+                <div class="column is-12"><textarea class="textarea" rows="6" placeholder="message"></textarea></div>
+                <div class="column is-12">
+                  <div class="form-footer has-text-right  mt-10"><button
+                      class="button   is-large is-primary form-button  is-fullwidth is-clear">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </form>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer ">
+    <div class="container">
+      <div class="columns  is-center">
+        <div class="column is-2  has-text-centered  fcolumn"><img
+            src="https://fresh.cssninja.io/img/logo/fresh-white-alt.svg" alt="" width="120" height="120"></div>
+        <div class="column is-2 has-text-centered fcolumn">
+          <h3 class="title is-4 is-white">PRODUCT</h3>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+        </div>
+        <div class="column is-2 has-text-centered fcolumn">
+          <h3 class="title is-4 is-white">DOCS</h3>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+        </div>
+        <div class="column is-2 has-text-centered fcolumn">
+          <h3 class="title is-4 is-white">BLOGROLL</h3>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+          <p class="suptitle is-6 is-muted">Discover features</p>
+        </div>
+        <div class="column is-3 has-text-centered fcolumn">
+          <h3 class="title is-4 is-white">FOLLOW US</h3>
+           <div class="icon-div has-text-centered">
+            <img src="instagram.svg" alt="">
+            <img src="twitter.svg" alt="">
+            <img src="facebook.svg" alt="">
+            <img src="github.svg" alt="">
+          </div>
+          <img src="https://fresh.cssninja.io/img/logo/made-with-bulma.png" alt="" width="120" height="120">
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- navbar js  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+
+    });
+  </script>
 </body>
 
 </html>
